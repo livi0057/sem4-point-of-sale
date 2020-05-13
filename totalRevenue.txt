@@ -1,0 +1,4 @@
+13 maj 2020 17:42:59, Completed sales: 1
+     Current total revenue: 174.0
+13 maj 2020 17:42:59, Completed sales: 2
+     Current total revenue: 234.6

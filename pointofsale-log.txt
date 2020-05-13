@@ -1,0 +1,11 @@
+13 maj 2020 17:42:59, Exception was thrown: Can not get item information.
+se.kth.iv1350.pointofsale.controller.OperationFailedException: Can not get item information.
+	at se.kth.iv1350.pointofsale.controller.Controller.registerNewItem(Controller.java:104)
+	at se.kth.iv1350.pointofsale.controller.Controller.enterItem(Controller.java:64)
+	at se.kth.iv1350.pointofsale.view.View.enterItem(View.java:77)
+	at se.kth.iv1350.pointofsale.view.View.runFakeExecution(View.java:44)
+	at se.kth.iv1350.pointofsale.startup.Main.main(Main.java:25)
+Caused by: se.kth.iv1350.pointofsale.integration.DatabaseException: Can not connect to database.
+	at se.kth.iv1350.pointofsale.integration.InventorySystem.getItemInfo(InventorySystem.java:46)
+	at se.kth.iv1350.pointofsale.controller.Controller.registerNewItem(Controller.java:97)
+	... 4 more
