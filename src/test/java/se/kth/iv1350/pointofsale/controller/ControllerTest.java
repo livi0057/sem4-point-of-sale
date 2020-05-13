@@ -65,7 +65,6 @@ public class ControllerTest {
         try {
             instance.startNewSale();
             SaleInfoDTO resultInfo = instance.enterItem(itemID, quantity);
-            //String result = resultInfo.toString();
             fail("Could enter item that does not exist in the inventory");
         }
         catch (InvalidItemIdException exc) {
